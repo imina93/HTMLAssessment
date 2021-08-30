@@ -36,6 +36,15 @@ blockquote {
   list-style: none;
 }
 
-ul > li {
-  background: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg")
+ul > li:first-child {
+  background: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  width:auto;
+height:50px;
+}
+ul > li:last-child {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  width:auto;
+height:50px;
 }
