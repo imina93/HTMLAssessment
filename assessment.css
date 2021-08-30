@@ -1,0 +1,41 @@
+.subjectHeader {
+  color: green;
+  font-family: sans-serif;
+}
+
+.hyperLink {
+  text-decoration: none;
+}
+.hyperLink:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#scoreBoard {
+  font-weight: bold;
+  color: purple;
+  border: 1px solid black;
+
+}
+
+#scoreBoard tr td {
+  text-align: center;
+}
+
+#teamRoster, #teamRoster li {
+  list-style-type: square;
+}
+
+blockquote {
+  background-color: grey;
+  color: yellow;
+}
+
+#checkbox-grid {
+  list-style: none;
+}
+
+ul > li {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg")
+}
